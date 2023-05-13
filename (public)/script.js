@@ -24,11 +24,11 @@ update(time, date);
 setInterval(update, 750, time, date);
 
 //toggle blur off by default
-document.getElementById("live-simply").classList.toggle("blur-sm");
+document.getElementById("live-simply").classList.toggle("blur-[2px]");
 
 //toggle options
 function toggleOptions() {
 
-  document.getElementById("live-simply").classList.toggle("blur-sm");
+  document.getElementById("live-simply").classList.toggle("blur-[2px]");
   document.getElementById("options-page").classList.toggle("invisible");
 }
