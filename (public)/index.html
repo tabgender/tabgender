@@ -2,99 +2,155 @@
 
 <head>
 
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <link rel="stylesheet" href="output.css">
+  <link rel="stylesheet" href="output.css">
 
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400&display=swap" rel="stylesheet">
 
-    <title>New tab</title>
+  <title>New tab</title>
 
-    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-5862706009179589"
-        crossorigin="anonymous"></script>
+  <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-5862706009179589"
+    crossorigin="anonymous"></script>
 
 </head>
 
-<body>
+<body class="overflow-hidden">
 
-    <div id="live-simply"
-        class="blur-[2px] flex h-screen w-screen flex-col items-center bg-gradient-to-br from-[#d3b3ec] to-[#500091] text-[#FCEDF2] font-inter">
+  <div id="live-simply"
+    class="relative x-20 overflow-hidden flex h-screen w-screen flex-col items-center text-white font-inter bg-gradient-to-b from-blue-300 to-pink-400 opacity-80">
 
-        <!-- top part -->
-        <div class="flex h-20 w-screen items-stretch justify-start gap-3 space-evenly">
-            <!-- logo -->
-            <!-- <div class="flex w-20 items-center justify-center bg-lime-500">G</div> -->
+    <!-- top part -->
+    <div class="flex h-20 w-screen items-stretch justify-start gap-3 space-evenly">
+      <!-- logo -->
+      <div class="flex w-20 items-center justify-start"><img src="resources/magnifyinglglass23.png"></div>
 
-            <!-- spacer -->
-            <div class="grow"></div>
+      <!-- spacer -->
+      <div class="grow"></div>
 
-            <!-- money -->
-            <div class="flex items-center">
-                <h2 class="text-4xl">$123,456.78</h2>
-            </div>
-
-            <!-- settings -->
-            <div class="flex w-8 items-center justify-center pr-3" onclick="toggleOptions()"><img
-                    src="resources/options.svg"></div>
-        </div>
-
-        <!-- spacer -->
-        <div class="grow-[1]"></div>
-
-        <!-- time -->
-        <div class="text-8xl">
-            <h2 id="time">12:45</h2>
-        </div>
-
-        <!-- search bar -->
-        <form id="search-bar"
-            class="hover:bg-[#ffe6f9] flex h-20 w-7/12 rounded-full justify-left items-center bg-[#FCEDF2] text-5xl m-5 overflow-hidden"
-            action="https://www.google.com/search" method="get">
-
-            <!-- logo -->
-            <div class="flex h-full w-14 items-center justify-center"><img class="w-6 h-6"
-                    src="resources/google_icon.png"></div>
-
-            <!-- input -->
-            <input
-                class="bg-transparent flex grow shrink min-w-0 h-full mr-8 focus:outline-none text-[#c095e4] placeholder:text-[#D8B1F8] placeholder:font-light"
-                type="text" placeholder="Search Google or type a URL" name="q" autocomplete="off" />
-
-        </form>
-
-        <!-- date -->
-        <div class="text-4xl">
-            <h2 id="date">Saturday, Nov. 2</h2>
-        </div>
-
-        <!-- spacer -->
-        <div class="grow-[2]"></div>
-
+      <div id="money" class="flex items-center justify-center text-3xl mr-3">$123,456.78</div>
+      <!-- settings 
+            <div class="flex w-8 items-center justify-center" onclick="toggleOptions()"><img
+                    src="..\resources\options-white.png"></div> -->
     </div>
 
-    <!-- options page -->
-    <div id="options-page"
-        class="absolute top-1/2 left-1/2 ml-[-250] mt-[-250] bg-neutral-100 h-[500] w-[500] invisible">waka waka</div>
+    <!-- spacer -->
+    <div class="grow-[0.7]"></div>
 
-
+    <!-- time -->
+    <div class="text-8xl">
+      <h2 id="time">12:45</h2>
     </div>
 
+    <!-- search bar -->
+    <form id="search-bar"
+      class="hover:bg-pink-50 flex h-20 w-7/12 rounded-full justify-left items-center bg-white text-5xl mt-5 ml-5 mr-5 mb-2 overflow-hidden"
+      action="https://www.google.com/search" method="get">
 
-    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-5862706009179589"
-        crossorigin="anonymous"></script>
-        
-    <!-- Bottom unit - long -->
-    <ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-5862706009179589" data-ad-slot="9853155317"
-        data-ad-format="auto" data-full-width-responsive="true"></ins>
-    <script>
-        (adsbygoogle = window.adsbygoogle || []).push({});
-    </script>
+      <!-- logo -->
+      <div class="flex h-full w-14 items-center justify-center"><img class="w-6 h-6" src="resources\google_icon.png">
+      </div>
 
-    <script src="script.js"></script>
+      <!-- input -->
+      <input
+        class="bg-transparent flex grow shrink min-w-0 h-full mr-8 focus:outline-none text-[#c095e4] placeholder:text-[#D8B1F8] placeholder:font-light"
+        type="text" placeholder="Search Google or type a URL" name="q" autocomplete="off">
+
+    </form>
+
+
+
+    <!-- date -->
+
+
+
+    <!--The about tabgender description hover text and description text-->
+    <div class="flex-col justify-center items-center relative w-1/2">
+
+      <div class="flex justify-center text-xl mt-1 cursor-pointer underline" id="about-tabgender">about
+        tabgender</div>
+
+      <div
+        class="pointer-events-none w-full bg-white text-gray-800 rounded-md shadow-lg opacity-0 transition-opacity duration-500 ease-in-out transform"
+        id="more-about-tabgender">
+        <div class="p-4">
+          <p class="text-sm">
+
+            Since January 1st, 2023, more than <a class="underline  text-blue-600" target="_blank"
+              href="https://translegislation.com/">500 anti-trans bills</a> have
+            been introduced across our country.
+
+            <br>
+
+            In 2022, <a class="underline text-blue-600" target="_blank"
+              href="https://translegislation.com/bills/2022">174 anti-trans bills</a> were introduced.
+
+            <br>
+
+            Transgender people are in danger.
+
+            <br>
+
+            tabgender aims to help raise awareness and funds to serve the transgender community.
+
+            <br>
+
+            From ad revenue on our Google homepage, we donate 100% of our profits to organizations that support
+            transgender rights.
+
+            <br>
+
+            Every time you interact with our page, you raise money to support trans people. We hope that, by
+            advocating for trans people, we can contribute to a movement to defeat transphobia.
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+
+  <!-- spacer -->
+  <div class="grow-[2]"></div>
+
+
+  </div>
+
+
+  <!-- 4 circles may include -->
+  <!--
+    <div id = "4circles" class="w-screen absolute bottom-0 z-30 mb-28 flex items-center justify-center">
+      <div class="w-1/2 grid grid-cols-4 gap-x-4 justify-items-center">
+      <div class="bg-gray-900 w-12 h-12 rounded-full"></div>
+      <div class="bg-gray-900 w-12 h-12 rounded-full"></div>
+      <div class="bg-gray-900 w-12 h-12 rounded-full"></div>
+      <div class="bg-gray-900 w-12 h-12 rounded-full"></div>
+    </div>
+    </div>
+  -->
+
+
+
+  </div>
+
+
+
+
+  <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-5862706009179589"
+    crossorigin="anonymous"></script>
+
+  <!-- Bottom unit - long -->
+  <ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-5862706009179589" data-ad-slot="9853155317"
+    data-ad-format="auto" data-full-width-responsive="true"></ins>
+  <script>
+    (adsbygoogle = window.adsbygoogle || []).push({});
+  </script>
+
+  <script src="script.js"></script>
 
 </body>
 

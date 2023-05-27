@@ -1,4 +1,15 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400&display=swap');
+
+#about-tabgender:hover ~#more-about-tabgender {
+    opacity: 1;
+    pointer-events:all;
+}
+
+#more-about-tabgender:hover {
+    opacity: 1;
+    pointer-events:all;
+}

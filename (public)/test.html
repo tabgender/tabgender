@@ -1,0 +1,61 @@
+
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <script src="https://cdn.jsdelivr.net/npm/iro@5.5.3/build/iro.min.js"></script>
+
+    <style>
+      .color-wheel {
+        width: 200px;
+        height: 200px;
+        border-radius: 50%;
+        overflow: hidden;
+      }
+
+      .color-wheel input[type="color"] {
+        width: 100%;
+        height: 100%;
+        padding: 0;
+        margin: 0;
+        border: none;
+        outline: none;
+        cursor: pointer;
+      }
+
+      .gradient-preview {
+        width: 300px;
+        height: 200px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="controls">
+      <div class="color-wheel">
+        <input type="color" id="color1" />
+      </div>
+      <div class="color-wheel">
+        <input type="color" id="color2" />
+      </div>
+    </div>
+    <div class="gradient-preview"></div>
+
+    <script>
+      const color1Input = document.getElementById('color1');
+      const color2Input = document.getElementById('color2');
+      const gradientPreview = document.querySelector('.gradient-preview');
+
+      function updateGradient() {
+        const color1 = color1Input.value;
+        const color2 = color2Input.value;
+
+        const gradient = `linear-gradient(to right, ${color1}, ${color2})`;
+
+        gradientPreview.style.background = gradient;
+      }
+
+      color1Input.addEventListener('input', updateGradient);
+      color2Input.addEventListener('input', updateGradient);
+    </script>
+  </body>
+</html>
