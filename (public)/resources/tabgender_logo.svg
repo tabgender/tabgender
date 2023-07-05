@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <defs>
+    <pattern id="pattern-0-0" patternTransform="matrix(0.737126, 0.675756, -0.675756, 0.737126, 10.232874, -6.661017)" xlink:href="#pattern-0"/>
+    <pattern x="0" y="0" width="25" height="25" patternUnits="userSpaceOnUse" viewBox="0 0 100 100" id="pattern-0">
+      <rect width="12.475" height="60" style="fill: rgb(85, 205, 252); paint-order: fill; stroke-width: 0px;" y="20" x="20"/>
+      <rect width="12.475" height="60" style="fill: rgb(247, 171, 184); paint-order: fill; stroke-width: 0px;" x="55.644" y="20"/>
+      <rect width="12.475" height="60" style="fill: rgb(255, 255, 255); paint-order: fill; stroke-width: 0px;" x="43.764" y="20"/>
+      <rect width="12.475" height="60" style="fill: rgb(247, 171, 184); paint-order: fill; stroke-width: 0px;" x="31.882" y="20"/>
+      <rect width="12.475" height="60" style="fill: rgb(85, 205, 252); paint-order: fill; stroke-width: 0px;" x="67.525" y="20"/>
+    </pattern>
+  </defs>
+  <circle cx="11" cy="11" r="8" style="fill: url(#pattern-0-0);"/>
+  <line x1="21" y1="21" x2="16.65" y2="16.65"/>
+</svg>

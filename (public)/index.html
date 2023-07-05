@@ -1,156 +1,159 @@
+<!DOCTYPE html>
 <html lang="en">
 
 <head>
 
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>tabgender</title>
 
-  <link rel="stylesheet" href="output.css">
+    <link rel="stylesheet" href="output.css">
 
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400&display=swap" rel="stylesheet">
 
-  <title>New tab</title>
-
-  <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-5862706009179589"
-    crossorigin="anonymous"></script>
 
 </head>
 
-<body class="overflow-hidden">
+<body class="text-white font-inter">
 
-  <div id="live-simply"
-    class="relative x-20 overflow-hidden flex h-screen w-screen flex-col items-center text-white font-inter bg-gradient-to-b from-blue-300 to-pink-400 opacity-80">
+    <header
+        class="flex items-center h-30 mt-0 bg-gradient-to-r from-blue-300 to-pink-400 opacity-80 border-b-2 border-black">
 
-    <!-- top part -->
-    <div class="flex h-20 w-screen items-stretch justify-start gap-3 space-evenly">
-      <!-- logo -->
-      <div class="flex w-20 items-center justify-start"><img src="resources/magnifyinglglass23.png"></div>
+        <a href="newtab.html"><div class="m-2 flex align-center justify-center w-14">
+            <img src="resources/tabgender_logo.svg">
+        </div></a>
 
-      <!-- spacer -->
-      <div class="grow"></div>
-
-      <div id="money" class="flex items-center justify-center text-3xl mr-3">$123,456.78</div>
-      <!-- settings 
-            <div class="flex w-8 items-center justify-center" onclick="toggleOptions()"><img
-                    src="..\resources\options-white.png"></div> -->
-    </div>
-
-    <!-- spacer -->
-    <div class="grow-[0.7]"></div>
-
-    <!-- time -->
-    <div class="text-8xl">
-      <h2 id="time">12:45</h2>
-    </div>
-
-    <!-- search bar -->
-    <form id="search-bar"
-      class="hover:bg-pink-50 flex h-20 w-7/12 rounded-full justify-left items-center bg-white text-5xl mt-5 ml-5 mr-5 mb-2 overflow-hidden"
-      action="https://www.google.com/search" method="get">
-
-      <!-- logo -->
-      <div class="flex h-full w-14 items-center justify-center"><img class="w-6 h-6" src="resources\google_icon.png">
-      </div>
-
-      <!-- input -->
-      <input
-        class="bg-transparent flex grow shrink min-w-0 h-full mr-8 focus:outline-none text-[#c095e4] placeholder:text-[#D8B1F8] placeholder:font-light"
-        type="text" placeholder="Search Google or type a URL" name="q" autocomplete="off">
-
-    </form>
-
-
-
-    <!-- date -->
-
-
-
-    <!--The about tabgender description hover text and description text-->
-    <div class="flex-col justify-center items-center relative w-1/2">
-
-      <div class="flex justify-center text-xl mt-1 cursor-pointer underline" id="about-tabgender">about
-        tabgender</div>
-
-      <div
-        class="pointer-events-none w-full bg-white text-gray-800 rounded-md shadow-lg opacity-0 transition-opacity duration-500 ease-in-out transform"
-        id="more-about-tabgender">
-        <div class="p-4">
-          <p class="text-sm">
-
-            Since January 1st, 2023, more than <a class="underline  text-blue-600" target="_blank"
-              href="https://translegislation.com/">500 anti-trans bills</a> have
-            been introduced across our country.
-
-            <br>
-
-            In 2022, <a class="underline text-blue-600" target="_blank"
-              href="https://translegislation.com/bills/2022">174 anti-trans bills</a> were introduced.
-
-            <br>
-
-            Transgender people are in danger.
-
-            <br>
-
-            tabgender aims to help raise awareness and funds to serve the transgender community.
-
-            <br>
-
-            From ad revenue on our Google homepage, we donate 100% of our profits to organizations that support
-            transgender rights.
-
-            <br>
-
-            Every time you interact with our page, you raise money to support trans people. We hope that, by
-            advocating for trans people, we can contribute to a movement to defeat transphobia.
-          </p>
+        <div class="m-2 text-4xl">
+            tabgender
         </div>
-      </div>
+
+        <div class="grow"></div>
+
+        <div class="grow flex justify-evenly m-2 text-xl">
+            <a href="#pmv">about tabgender</a>
+            <div>*</div>
+            <a href="#partners">our partners</a>
+            <div>*</div>
+            <a href="#contact">contact us</a>
+        </div>
+
+    </header>
+
+    <div class="h-fit">
+
+        <!-- download tabgender -->
+        <div class="flex items-start py-10">
+
+            <!-- left half -->
+            <img src="resources\trans_people_cropped.svg" class="w-7/12">
+
+            <!-- right half -->
+            <div class="text-black h-full px-20">
+
+                <div class="text-4xl font-bold">Raise money to support trans people with every new tab.</div>
+
+                <div class="text-xl my-5">Trans people need your help now more than ever. Turn your new tabs into
+                    valuable donations to support trans people.</div>
+
+                <!-- install button -->
+                <a href="https://chrome.google.com/webstore/category/extensions"
+                    target="_blank" class="cursor-pointer text-white drop-shadow-xl rounded-lg flex items-center justify-center h-10 w-20 bg-blue-500 text-xl transition ease-in-out delay-100 hover:-translate-y-1 hover:scale-105 hover:bg-indigo-500 duration-300 hover:">
+                    Install</a>
+
+            </div>
+
+        </div>
+
+        <!-- purpose, mission, vision -->
+        <div id="pmv" class="bg-white rounded-lg pointer-events-none w-full bg-white text-gray-800 p-10">
+            <div class="flex justify-between">
+                <div
+                    class="drop-shadow-xl flex flex-col border border-2 border-slate-500 bg-white text-center p-6 rounded-lg flex-1 m-6">
+                    <p class="text-2xl font-bold">our purpose:</p>
+                    <p class="text-4xl font-bold">To defend the equality and dignity of all trans people</p>
+                </div>
+
+
+                <div
+                    class="drop-shadow-xl flex flex-col border border-2 border-slate-500 bg-white text-center p-6 rounded-lg flex-1 m-6">
+                    <p class="text-2xl font-bold">our mission:</p>
+                    <p class="text-4xl font-bold">To raise funds and awareness to advocate for trans people</p>
+                </div>
+
+                <div
+                    class="drop-shadow-xl flex flex-col border border-2 border-slate-500 bg-white text-center p-6 rounded-lg flex-1 m-6">
+                    <p class="text-2xl font-bold">our vision:</p>
+                    <p class="text-4xl font-bold">To achieve trans liberation</p>
+
+                </div>
+
+            </div>
+        </div>
+
+        <!-- how does tabgender work? -->
+        <div class="flex flex-col text-gray-800 items-center p-10">
+
+            <!-- background -->
+            <img src="resources/tabgender_logo.svg" class="absolute top-[60rem] left-[2rem] h-2/3 opacity-20">
+
+            <!-- title -->
+            <div class="font-bold text-6xl border-b border-b-8 border-gray-800">How does tabgender work?</div>
+
+            <!-- p -->
+            <div class="flex flex-col items-start w-3/4 mt-10">
+                <div class="text-3xl">1. You install the <a href="https://chrome.google.com/webstore/category/extensions" class="text-blue-500 underline">tabgender Chrome extension</a>, or you <a href="https://support.google.com/chrome/answer/95314?hl=en&co=GENIE.Platform%3DDesktop" class="text-blue-500 underline">set your home page to
+                    https://tabgender.org/newtab</a></div>
+
+                <div class="text-3xl my-20">2. Every time you open a new tab, you raise money by viewing ads</div>
+
+                <div class="text-3xl">3. We donate that money to organizations that support trans people</div>
+            </div>
+        </div>
+
+        <!-- 
+            <div class="flex items-center justify-center">
+                <iframe src="https://www.translegislation.com" class="w-1/2 h-1/2"></iframe>
+            </div> -->
+
+
+        <!-- our partners -->
+        <div id="partners" class="flex flex-col items-center justify-center p-10">
+
+            <!-- title -->
+            <div class="font-bold text-6xl border-b border-b-8 border-gray-800 text-gray-800">Our Partners</div>
+
+            <div class="mt-10 grid grid-cols-3 grid-rows-3 gap-20">
+
+                <div class="flex items-center justify-center rounded-full h-[10rem] w-[10rem]"><img src="resources/partners/aclu.png"></div>
+                <div class="flex items-center justify-center rounded-full h-[10rem] w-[10rem]"><img src="resources/partners/gender_justice_league.png"></div>
+                <div class="flex items-center justify-center rounded-full h-[10rem] w-[10rem]"><img src="resources/partners/glaad.png"></div>
+                <div class="flex items-center justify-center rounded-full h-[10rem] w-[10rem]"><img src="resources/partners/national_center_for_transgender_equality.png"></div>
+                <div class="flex items-center justify-center rounded-full h-[10rem] w-[10rem]"><img src="resources/partners/pflag.png"></div>
+                <div class="flex items-center justify-center rounded-full h-[10rem] w-[10rem]"><img src="resources/partners/slyvia_rivera_law_project.png"></div>
+                <div class="flex items-center justify-center rounded-full h-[10rem] w-[10rem]"><img src="resources/partners/trans_lifeline.png"></div>
+                <div class="flex items-center justify-center rounded-full h-[10rem] w-[10rem]"><img src="resources/partners/transgender_law_center.png"></div>
+                <div class="flex items-center justify-center rounded-full h-[10rem] w-[10rem]"><img src="resources/partners/trevor_project.jpg"></div>
+            </div>
+        </div>
+
+        <!-- contact us -->
+        <div id="contact" class="flex justify-center w-full">
+            <div class="flex justify-center text-3xl text-gray-800 p-10 w-fit">Any questions? Send us a message at&nbsp;<a href="mailto:shivumbanerjee@tabgender.org" class="text-blue-500 underline">shivumbanerjee@tabgender.org</a></div>
+        </div>
+
     </div>
-  </div>
 
+    <div class="flex bg-gradient-to-r from-blue-300 to-pink-400 opacity-80 border-t-2 border-black text-gray-800 p-7 justify-center">
 
+        <!-- terms -->
+        <a href="terms.html" class="underline mx-[3rem]">Terms of service</a>
 
-  <!-- spacer -->
-  <div class="grow-[2]"></div>
+        <!-- privacy -->
+        <a href="privacy.html" class="underline mx-[3rem]">Privacy Policy</a>
 
-
-  </div>
-
-
-  <!-- 4 circles may include -->
-  <!--
-    <div id = "4circles" class="w-screen absolute bottom-0 z-30 mb-28 flex items-center justify-center">
-      <div class="w-1/2 grid grid-cols-4 gap-x-4 justify-items-center">
-      <div class="bg-gray-900 w-12 h-12 rounded-full"></div>
-      <div class="bg-gray-900 w-12 h-12 rounded-full"></div>
-      <div class="bg-gray-900 w-12 h-12 rounded-full"></div>
-      <div class="bg-gray-900 w-12 h-12 rounded-full"></div>
     </div>
-    </div>
-  -->
-
-
-
-  </div>
-
-
-
-
-  <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-5862706009179589"
-    crossorigin="anonymous"></script>
-
-  <!-- Bottom unit - long -->
-  <ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-5862706009179589" data-ad-slot="9853155317"
-    data-ad-format="auto" data-full-width-responsive="true"></ins>
-  <script>
-    (adsbygoogle = window.adsbygoogle || []).push({});
-  </script>
-
-  <script src="script.js"></script>
 
 </body>
 
